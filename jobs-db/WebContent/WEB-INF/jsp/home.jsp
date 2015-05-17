@@ -8,39 +8,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title><c:out value="${title }" /></title>
-
-<style>
-h1.title {
-	font-family: sans-serif;
-	text-align: center;
-}
-
-table.jobs {
-	border-top: 2px solid #A04040;
-	border-left: 2px solid #A04040;
-	border-right: 2px solid #A04040;
-	width: 100%;
-}
-
-th {
-	font-family: sans-serif;
-	color: blue;
-	text-align: center;
-	border-bottom: 2px solid;
-}
-
-td.entry {
-	border-bottom: 2px solid;
-	text-align: center;
-}
-
-div.footer {
-	height: 100%;
-	font-size: x-small;
-	text-align: right;
-	vertical-align: bottom;
-}
-</style>
+<link href="${pageContext.request.contextPath}/resources/css/main.css" rel="stylesheet" type="text/css" />
 
 </head>
 <body>
@@ -48,22 +16,22 @@ div.footer {
 
 	<table class="jobs">
 		<tr>
-			<th>Title</th>
-			<th>Job Number</th>
-			<th>Applied Date</th>
-			<th>Status</th>
-			<th>Company</th>
-			<th>Location</th>
+			<th class="formentry">Title</th>
+			<th class="formentry">Job Number</th>
+			<th class="formentry">Applied Date</th>
+			<th class="formentry">Status</th>
+			<th class="formentry">Company</th>
+			<th class="formentry">Location</th>
 		</tr>
 		
 		<c:forEach var="row" items="${jobApps}">
 		<tr>
-			<td class="entry">${row.title}</td>
-			<td class="entry">${row.jobNumber}</td>
-			<td class="entry"><fmt:formatDate pattern="dd/MM/yy" value="${row.appliedDate}" /></td>
-			<td class="entry">${row.status}</td>
-			<td class="entry">${row.company}</td>
-			<td class="entry">${row.location}</td>
+			<td name="leftalign" class="formentry">${row.title}</td>
+			<td class="formentry">${row.jobNumber}</td>
+			<td class="formentry"><fmt:formatDate pattern="dd/MM/yy" value="${row.appliedDate}" /></td>
+			<td class="formentry">${row.status}</td>
+			<td class="formentry">${row.company}</td>
+			<td class="formentry">${row.location}</td>
 		</tr>
 		</c:forEach>
 	</table>

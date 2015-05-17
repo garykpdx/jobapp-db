@@ -7,45 +7,15 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title><c:out value="${title }" /></title>
+<title>Application Created</title>
 
-<style>
-h1.title {
-	font-family: sans-serif;
-	text-align: center;
-}
-
-table.jobs {
-	border: 2px solid #A04040;
-	width: 600px;
-}
-
-table.formdata {
-	margin: 10px;
-}
-
-td.formentry {
-	border-left: 1px solid blue;
-	border-bottom: 1px solid blue;
-}
-
-th {
-	font-family: sans-serif;
-	text-align: center;
-}
-
-div.footer {
-	height: 100%;
-	font-size: x-small;
-	text-align: right;
-	vertical-align: bottom;
-}
-</style>
+<link href="${pageContext.request.contextPath}/resources/css/main.css" rel="stylesheet" type="text/css" />
 
 </head>
 <body>
 	<h1 class="title">Add New Application</h1>
-	<div class="mainarea">
+	
+	<div class="">
 		<p>Creation was successful!</p>
 		<p>Return to <a href="${pageContext.request.contextPath}/">view applications</a></p>
 	</div>
