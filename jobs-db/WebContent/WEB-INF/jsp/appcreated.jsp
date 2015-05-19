@@ -17,7 +17,7 @@
 	
 	<div class="">
 		<p>Creation was successful!</p>
-		<p>Return to <a href="${pageContext.request.contextPath}/">view applications</a></p>
+		<p>Return to <a href="${pageContext.request.contextPath}/">List Applications</a></p>
 	</div>
 	<div class="footer">Gary Krug</div>
 

@@ -4,7 +4,12 @@ h1.title {
 	font-family: sans-serif;
 	color: #A04040;
 	text-align: center;
-		text-shadow: 2px 2px #A0A0A0;
+	text-shadow: 2px 2px #A0A0A0;
+}
+
+h2.title {
+	font-family: sans-serif;
+	color: #000088;
 }
 
 div.mainarea {
@@ -35,8 +40,15 @@ td.formentry {
 	text-align: center;
 }
 
-td#leftalign {
-	text-align: left;
+table.login {
+	border: 1px solid blue;
+	border-radius: 10px;
+	padding: 0.5em;
+}
+
+td.fail {
+	text-align: center;
+	color: red;
 }
 
 div.footer {

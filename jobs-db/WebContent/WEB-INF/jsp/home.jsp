@@ -28,7 +28,7 @@
 		<tr>
 			<td name="leftalign" class="formentry">${row.title}</td>
 			<td class="formentry">${row.jobNumber}</td>
-			<td class="formentry"><fmt:formatDate pattern="dd/MM/yy" value="${row.appliedDate}" /></td>
+			<td class="formentry"><fmt:formatDate pattern="MM/dd/yy" value="${row.appliedDate}" /></td>
 			<td class="formentry">${row.status}</td>
 			<td class="formentry">${row.company}</td>
 			<td class="formentry">${row.location}</td>

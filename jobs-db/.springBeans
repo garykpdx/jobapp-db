@@ -9,6 +9,7 @@
 	<configs>
 		<config>src/com/garykrug/jobapp/config/dao-context.xml</config>
 		<config>src/com/garykrug/jobapp/config/service-context.xml</config>
+		<config>src/com/garykrug/jobapp/config/security-context.xml</config>
 	</configs>
 	<autoconfigs>
 		<config>WebContent/WEB-INF/jobapplication-servlet.xml</config>

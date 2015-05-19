@@ -53,7 +53,7 @@
 		</sf:form>
 
 		<p>
-			<a href="${pageContext.request.contextPath}/home">List Applications</a>
+			<a href="${pageContext.request.contextPath}/">List Applications</a>
 		</p>
 	</div>
 	<div class="footer">Gary Krug</div>
