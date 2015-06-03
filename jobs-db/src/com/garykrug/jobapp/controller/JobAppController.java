@@ -48,4 +48,9 @@ public class JobAppController {
 		
 		return "appcreated";
 	}
+	
+	@RequestMapping(value="/testing")
+	public String showTestPage() {
+		return "testing";
+	}
 }

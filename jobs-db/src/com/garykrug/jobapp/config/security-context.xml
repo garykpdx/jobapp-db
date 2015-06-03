@@ -16,6 +16,7 @@
 		<security:intercept-url pattern="/newapp" access="isAuthenticated()" />
 		<security:intercept-url pattern="/appcreated" access="isAuthenticated()" />
 		<security:intercept-url pattern="/login" access="permitAll" />
+		<security:intercept-url pattern="/testing" access="permitAll" />
 		<security:intercept-url pattern="/" access="permitAll" />
 		<security:intercept-url pattern="/resources/**" access="permitAll" />
 		<security:intercept-url pattern="/**" access="denyAll" />
