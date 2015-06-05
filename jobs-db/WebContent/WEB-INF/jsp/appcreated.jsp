@@ -19,7 +19,9 @@
 		</div>
 
 		<div class="menu">
-			<a href="newapp">Add Application</a> <br /> <a href="admin">Administration</a> <br />
+				<a href="newapp">Add Application</a> <br/>
+				<a href="admin">Administration</a> <br/>
+				<a href="login">Login</a> <br/>
 		</div>
 
 		<div class="main">
