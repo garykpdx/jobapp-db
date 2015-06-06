@@ -18,9 +18,9 @@
 
 		<div class="menu">
 				List Applications<br/> 
-				<a href="newapp">Add Application</a> <br /> 
-				<a href="admin">Administration</a> <br />
-				<a href="login">Login</a> <br />
+				<a href="newapp">Add Application</a> <br/> 
+				<a href="admin">Administration</a> <b/>
+				<a href="login">Login</a> <br/>
 		</div>
 
 		<div class="main">

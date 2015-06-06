@@ -16,9 +16,10 @@
 		</div>
 
 		<div class="menu">
-				Add Application <br/>
-				<a href="admin">Administration</a> <br/>
-				<a href="login">Login</a> <br/>
+			<a href="/">List Applications</a> <br/>
+			Add Application <br/>
+			<a href="admin">Administration</a> <br/>
+			<a href="login">Login</a> <br/>
 		</div>
 		<div class="main">
 			<sf:form commandName="jobApp" action='${pageContext.request.contextPath}/appcreated' method='POST'>

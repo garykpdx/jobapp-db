@@ -15,9 +15,10 @@
 		</div>
 
 		<div class="menu">
-				<a href="newapp">Add Application</a> <br/>
-				<a href="admin">Administration</a> <br/>
-				Login <br/>
+			<a href="/">List Applications</a> <br/>
+			<a href="newapp">Add Application</a> <br/>
+			<a href="admin">Administration</a> <br/>
+			Login <br/>
 		</div>
 
 		<div class="main">
